@@ -3,10 +3,7 @@
     padding: 0;
 }
 
-body {
-    width: 100%;
-    justify-content: center;
-}
+
 
 .top-head {
     display: flex;
@@ -43,6 +40,7 @@ body {
 .logo {
     display: flex;
     align-items: center;
+    color: aliceblue;
 }
 
 .logo img {
@@ -60,6 +58,8 @@ body {
     align-items: center;
     justify-content: center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
 }
 
 .container h1 {
