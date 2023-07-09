@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    justify-content: center;
+}
+
+.top-head {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.head li {
+    display: flex;
+    align-items: center;
+}
+
+.head1 li {
+    display: flex;
+    align-items: center;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.navbar {
+    background: #045839;
+    display: flex;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+
+    height: 60px;
+    padding: 5px;
+
+}
+
+.container {
+    background-image: url(bg.png);
+    height: 70vh;
+    color: azure;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 32px;
+    min-width: 60%;
+    display: inline;
+}
+
+.container h3 {
+    text-align: center;
+    align-content: center;
+}
+
+.container p {
+    text-align: center;
+    align-content: center;
+}
+
+.menu a {
+    color: aliceblue;
+    align-items: center !important;
+    justify-content: end;
+    text-decoration: none;
+    padding-left: 65px;
+
+}
+
+.destination {
+    display: inline;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    color: #045839;
+    margin: 15px;
+}
+
+.place {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.place img {
+    width: 24%;
+    margin: 10px;
+}
+
+.whywe h1 {
+    text-align: center;
+    align-items: center;
+    color: #045839;
+
+}
+
+.whyus {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.why {
+    box-sizing: border-box;
+    width: 31%;
+    box-shadow: 5px wheat;
+    text-align: center;
+    border: 2px solid rgb(109, 106, 106);
+    padding: 50px;
+}
+
+.why img {
+    width: 200px;
+    height: 200px;
+}
+
+.pack h1 {
+    text-align: center;
+    align-items: center;
+    color: #045839;
+}
+
+.pack p {
+    text-align: center;
+    align-items: center;
+}
+
+.packing {
+    display: flex !important;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.packages {
+    width: 31%;
+    display: inline;
+    text-align: center;
+}
+
+.packages img {
+    width: 100%;
+}
+
+.us {
+    background: #045839;
+    color: aliceblue;
+}
+
+.we {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+
+.social {
+    display: inline;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+}
+
+.link {
+    padding: 20px;
+
+}
+
+.links {
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.links li {
+    text-align: start;
+    padding: 3px;
+}
+
+.links p {
+    text-align: start;
+    margin: 5px;
+}
+
+.buttom-footer {
+    display: inline !important;
+    margin: 30px;
+    line-height: 20px;
+
+
+}
+
+.buttom-footer p {
+    padding: 20px;
+    text-align: center;
+
+}
